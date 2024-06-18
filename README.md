@@ -41,8 +41,8 @@ To build Wavetable Synth from source, follow these steps:
 
 1. *Clone the repository*:
     sh
-    git clone https://github.com/your-username/wavetable-synth.git
-    cd wavetable-synth
+    git clone [https://github.com/your-username/wavetable-synth.git](https://github.com/filipeborato/WavetableSynth.git)
+    cd WavetableSynth
     
 
 2. *Install the JUCE Framework*:

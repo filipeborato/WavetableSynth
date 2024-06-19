@@ -25,7 +25,7 @@ To build Wavetable Synth from source, follow these steps:
 1. *Clone the repository*:
 
 ``` 
-git clone [https://github.com/filipeborato/WavetableSynth]
+git clone https://github.com/filipeborato/WavetableSynth
 ```
 
 ```

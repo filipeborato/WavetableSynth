@@ -8,13 +8,13 @@ Wavetable Synth is a VST plugin developed using the JUCE framework. It offers a 
 
 ### Windows
 
-1. Download the plugin installer.
-2. Run the installer and follow the on-screen instructions.
+1. Download the plugin on the tag/release version.
+2. Find your Vst folder on Win and put the VST3 file.
 3. Open your DAW and verify that the plugin is listed among the available VSTs.
 
 ### macOS
 
-1. Download the .dmg file of the plugin.
+1. Download the .dmg file of the plugin on tag/release.
 2. Mount the disk image and drag the plugin to the VST plugins folder.
 3. Open your DAW and verify that the plugin is listed among the available VSTs.
 

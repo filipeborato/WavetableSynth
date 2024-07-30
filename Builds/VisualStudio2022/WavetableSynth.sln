@@ -10,9 +10,12 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WavetableSynth - VST3", "WavetableSynth_VST3.vcxproj", "{A72DC816-9E1C-7F14-D308-82C1939F8987}"
 	ProjectSection(ProjectDependencies) = postProject
 		{B2BF7DC0-FCFC-2599-6D67-DB1E6516262E} = {B2BF7DC0-FCFC-2599-6D67-DB1E6516262E}
+		{E13C5C36-9682-3D9C-0545-4BC8507E0B84} = {E13C5C36-9682-3D9C-0545-4BC8507E0B84}
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WavetableSynth - Shared Code", "WavetableSynth_SharedCode.vcxproj", "{B2BF7DC0-FCFC-2599-6D67-DB1E6516262E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WavetableSynth - VST3 Manifest Helper", "WavetableSynth_VST3ManifestHelper.vcxproj", "{E13C5C36-9682-3D9C-0545-4BC8507E0B84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +35,10 @@ Global
 		{B2BF7DC0-FCFC-2599-6D67-DB1E6516262E}.Debug|x64.Build.0 = Debug|x64
 		{B2BF7DC0-FCFC-2599-6D67-DB1E6516262E}.Release|x64.ActiveCfg = Release|x64
 		{B2BF7DC0-FCFC-2599-6D67-DB1E6516262E}.Release|x64.Build.0 = Release|x64
+		{E13C5C36-9682-3D9C-0545-4BC8507E0B84}.Debug|x64.ActiveCfg = Debug|x64
+		{E13C5C36-9682-3D9C-0545-4BC8507E0B84}.Debug|x64.Build.0 = Debug|x64
+		{E13C5C36-9682-3D9C-0545-4BC8507E0B84}.Release|x64.ActiveCfg = Release|x64
+		{E13C5C36-9682-3D9C-0545-4BC8507E0B84}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

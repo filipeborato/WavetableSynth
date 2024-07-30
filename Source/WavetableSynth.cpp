@@ -3,12 +3,12 @@
 std::vector<float> WavetableSynth::generateSineWaveTable()
 {
     constexpr auto WAVETABLE_LENGTH = 64;
-    const auto PI = std::atanf(1.f) * 4;
+    const auto PI = std::atanhf(1.f) * 4;
     std::vector<float> sineWaveTable = std::vector<float>(WAVETABLE_LENGTH);
 
     for (auto i = 0; i < WAVETABLE_LENGTH; ++i)
     {
-        sineWaveTable[i] = std::sinf(2 * PI * static_cast<float>(i) / WAVETABLE_LENGTH);
+        sineWaveTable[i] = std::sinh(2 * PI * static_cast<float>(i) / WAVETABLE_LENGTH);
     }
 
     return sineWaveTable;
@@ -56,7 +56,7 @@ float WavetableSynth::midiNoteNumberToFrequency(const int midiNoteNumber)
     constexpr auto A4_FREQUENCY = 440.f;
     constexpr auto A4_NOTE_NUMBER = 69.f;
     constexpr auto NOTES_IN_AN_OCTAVE = 12.f;
-    return A4_FREQUENCY * std::powf(2, (static_cast<float>(midiNoteNumber) - A4_NOTE_NUMBER) / NOTES_IN_AN_OCTAVE);
+    return A4_FREQUENCY * std::pow(2, (static_cast<float>(midiNoteNumber) - A4_NOTE_NUMBER) / NOTES_IN_AN_OCTAVE);
 }
 
 void WavetableSynth::handleMidiEvent(const juce::MidiMessage& midiMessage)
